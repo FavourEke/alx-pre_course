@@ -1,1 +1,21 @@
-
+root@c454fe6d6ecc:/# git clone https://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@github.com/FavourEke/alx-pre_course.git
+Cloning into 'alx-pre_course'...
+warning: You appear to have cloned an empty repository.
+root@c454fe6d6ecc:/# cd alx-pre_course/
+root@c454fe6d6ecc:/alx-pre_course# echo 'My first readme' > README.md
+root@c454fe6d6ecc:/alx-pre_course# cat README.md
+My first readme
+root@c454fe6d6ecc:/alx-pre_course# git config --global user.email "Ekeohuruf@yahoo.com"
+root@c454fe6d6ecc:/alx-pre_course# git config --global user.name "FavourEke"
+root@c454fe6d6ecc:/alx-pre_course# git add .
+root@c454fe6d6ecc:/alx-pre_course# git commit -m 'My first commit'
+[master (root-commit) 1bd4062] My first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+root@c454fe6d6ecc:/alx-pre_course# git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 233 bytes | 233.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/FavourEke/alx-pre_course.git
+ * [new branch]      master -> master
